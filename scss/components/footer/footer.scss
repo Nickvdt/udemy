@@ -1,0 +1,58 @@
+@use "../../abstract/mixins";
+@use "../../abstract/colors";
+
+.footer {
+    display: flex;
+    background: #1c1d1f;
+    &__section {
+        border-top: 0.1rem solid #3e4143;
+        color: #eee;
+        padding-top: 2.4rem;
+        padding-left: 4.8rem;
+        padding-right: 4.8rem;
+        width: 100%;
+    }
+
+    &__div {
+        display: flex;
+    }
+
+    &__figure {
+        padding: 0 0 2.4rem;
+        order: 1;
+        margin-left: auto;
+
+        &--button {
+            @include mixins.ButtonStyle;
+            border: 0.1rem solid white;
+            color: white;
+            background: transparent;
+            padding: 1rem;
+        }
+
+        &--button:hover {
+            background: #1d1d1d;
+        }
+    }
+
+    &__list {
+        font-size: 1.7rem;
+        padding-right: 6rem;
+    }
+
+    &__listItem {
+        margin-bottom: 1rem;
+        list-style: none;
+    }
+
+    &__copyrightenlogo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7rem 0 3rem;
+
+        &--p {
+            font-size: 1.7rem;
+        }
+    }
+}

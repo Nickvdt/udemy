@@ -1,0 +1,46 @@
+@use "../../abstract/mixins";
+@use "../../abstract/colors";
+
+.influencer {
+  &__div {
+    @include mixins.flexCenter;
+  }
+
+  &__figure {
+    height: 40rem;
+    width: 50rem;
+    padding: 3rem;
+  }
+
+  &__img {
+    width: 77%;
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    &--h2 {
+      width: 25ch;
+      font-size: 4rem;
+    }
+
+    &--p {
+      width: 45ch;
+      font-size: 2.5rem;
+    }
+
+    &--button {
+      @include mixins.ButtonStyle;
+      background: black;
+      color: white;
+      width: 20rem;
+      font-weight: 750;
+      font-size: 1.7rem;
+    }
+    &--button:hover{
+      background: #1d1d1d;
+    }
+  }
+}

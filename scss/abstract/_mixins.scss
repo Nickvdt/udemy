@@ -1,0 +1,15 @@
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin ButtonStyle {
+    height: 4rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}

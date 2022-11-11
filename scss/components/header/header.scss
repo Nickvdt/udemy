@@ -1,0 +1,99 @@
+@use "../../abstract/mixins";
+@use "../../abstract/colors";
+.header{
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem 2.4rem;
+        box-shadow: 0 2.0rem 5rem rgb(0 0 0 / 15%);
+    }
+
+    &__list{
+        @include mixins.flexCenter;
+        list-style: none;
+        
+    }
+    &__listItem{
+        font-size: 1.6rem;
+        color: #1c1d1f;
+        padding: 1rem 0.5rem; 
+        font-weight: 500;
+    }
+    &__form{
+        outline: auto;
+        border-radius: 5rem;
+        position: relative;
+        padding: 0.6rem;
+        width: 100vh;
+        display: flex;
+        
+        
+        &--zoekbutton{
+            @include mixins.flexCenter;
+            padding: 1rem;
+            border: none;
+            cursor: pointer;
+            color: grey;
+            background: transparent;
+        }
+
+
+        &--input{
+            border: 0;
+            outline: none;
+            padding: 1.5rem 2.0rem;
+            width: 100%;
+            height: 0.4rem;
+        }
+
+    }
+
+    &__button{
+        @include mixins.ButtonStyle;
+        padding: 0 1.2rem;
+        border: 0.1rem solid #1c1d1f;
+
+        &--inloggen{
+            background: white;
+        }
+        &--inloggen:hover{
+            background: #f5efef;
+        }
+
+        &--inschrijven{
+            background: black;
+            color: #fff;
+        }
+        &--inschrijven:hover{
+            background: #1d1d1d;
+          }
+
+        &--taal{
+            background: white;
+            min-width: 4rem;
+        }
+        &--taal:hover{
+            background: #f5efef;
+        }
+    }
+    &__image{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        
+        
+    }
+    &__tekst{
+        position: absolute;
+        padding: 2.4rem;
+        max-width: 40rem;
+        background: #eee;
+        top: 17rem;
+        left: 15rem;
+        box-shadow: 0 2.0rem 5rem rgb(0 0 0 / 35%);
+        
+    }
+}
+

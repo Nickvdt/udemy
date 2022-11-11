@@ -1,0 +1,60 @@
+@use "../../abstract/mixins";
+@use "../../abstract/colors";
+.gamemakers{
+    margin: auto;
+    width: 92%;
+    &__h2{
+        font-size: 3.2rem;
+        padding: 3rem;
+    }
+
+    &__p{
+        font-size: 1.9rem;
+        padding-left: 3rem;
+    }
+
+    &__list{
+        display: flex;
+        font-size: 1.6rem;
+        padding: 3rem;
+        gap: 2rem;
+        list-style: none;
+        font-weight: 700;
+    }
+
+    &__listItem{
+        font-size: 100%;
+        color: colors.$color--grey;
+    }
+
+    &__listItem:hover {
+        color: black;
+        cursor: pointer;
+    }
+
+    &__article{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 3rem;
+        width: 96%;
+        padding: 4rem;
+        height: 23rem;
+        border: 0.2rem solid colors.$color--lightgrey;
+        &--h2{
+            margin-bottom: 1rem;
+        }
+
+        &--p{
+            width: 90ch;
+        }
+
+        &--button{
+            @include mixins.ButtonStyle;
+            margin-top: 1.3rem;
+            background: transparent;
+            border: 0.1rem solid black;
+            width: 12.7rem;
+        }
+    }
+}

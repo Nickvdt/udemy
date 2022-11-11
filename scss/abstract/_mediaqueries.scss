@@ -1,0 +1,172 @@
+
+@media  screen and (max-width: 83.75rem){ // 1340 px
+    .header__nav{
+      box-shadow: none;
+      width: max-content;
+        
+    }
+
+    .header__listItem {
+        font-size: 1.5rem;
+    }
+    .header__form{
+        width: auto;
+    }
+    .producten__listItem{
+        width: 20rem;
+    }
+    .header__image{
+        width: 65%;
+    }
+}
+
+
+@media  screen and (max-width: 75rem){ // 1200 px
+    .producten__listItem--img5{
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 70.625rem){ // 1130 px
+    .header__image{
+        width: 70%;
+    }
+    .gamemakers__article--p{
+        width: auto;
+    }
+    .producten__listItem{
+        width: 100%;
+    }
+}
+
+
+
+
+@media  screen and (max-width: 62.5rem) { // 1000 px
+    .header__nav{
+        width: 90%;
+    }
+    .header__image{
+        width: 60%;
+    }
+    .header__button--taal, .header__button--inschrijven{
+        display: none;
+    }
+    .header__listItem--tekst{
+        display: none;
+    }
+    .influencer{
+       margin: 5rem;
+    }
+    .influencer__img{
+        display: none;
+
+    }
+    .influencer__figure{
+        height: 0;
+        width: 0;
+        padding: 0;
+    }
+    .producten__listItem--img4{
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 56.25rem){ // 900 px
+    .header__listItem {
+        font-size: 1.6rem;
+    }
+    .header__image{
+        width: 30%;
+    }
+}
+
+@media  screen and (max-width: 53.123rem){ // 850 px
+    .header__nav{
+        width: auto;
+    }
+    .header__form--input{
+        display: none;
+    }
+    .header__form{
+        outline: none;
+    }
+}
+
+@media screen and (max-width: 50rem){ // 800 px
+    .header__tekst{
+        display: none;
+    }
+    .header__image{
+        width: 15%;
+    }
+
+}
+
+
+@media screen and (max-width:43.75rem){ // 700 px
+    .header__nav{
+        box-shadow: 0 2.0rem 5rem rgb(0 0 0 / 15%);
+    }
+    .header__listItem {
+        font-size: 2.2rem;
+    }
+    .header__button{
+        display: none;
+    }
+    .header__image{
+        display: none;
+    }
+    .footer__div{
+        flex-direction: column;
+    }
+    .gamemakers__list{
+        font-size: 1.3rem;
+    }
+    .influencer__section{
+        margin: auto;
+    }
+    .influencer__section--p{
+        width: auto;
+        font-size: 1.7rem;
+    }
+    .gamemakers__listItem--l7{
+        display: none;
+    }
+    .onderwerpen__categorieen{
+        flex-direction: column;
+    }
+    .producten__listItem--img3{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:31.25rem){ // 500px
+    .gamemakers__article{
+        padding: 2rem;
+    }
+    .gamemakers__listItem--l6{
+        display: none;
+    }
+    .influencer__section--h2{
+        width: 80%;
+        font-size: 2.7rem;
+    }
+    .influencer__section--p{
+        font-size: 1.5rem;
+        width: 95%;
+    }
+    .influencer__section--button{
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media screen and (max-width:25rem) { // 400px
+    .gamemakers__listItem--l5{
+        display: none;
+    }
+}

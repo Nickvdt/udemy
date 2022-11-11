@@ -1,0 +1,18 @@
+.onderwerpen {
+  background: #e4e7e8;
+  list-style: none;
+  padding: 5rem;
+
+  &__categorieen {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__h2 {
+    margin-bottom: 2.4rem;
+  }
+
+  &__section {
+    margin-top: 2rem;
+  }
+}
