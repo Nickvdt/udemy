@@ -1,0 +1,2 @@
+# Udemy
+Tijdens dit project heb ik een replica gemaakt van de Udemy homepage. Tijdens deze project heb ik gebruikgemaakt van SCSS om de stijl te definiëren. De CSS is geminimaliseerd en afbeeldingen zijn geoptimaliseerd naar het WebP-formaat voor snellere laadtijden.
